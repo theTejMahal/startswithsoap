@@ -9,6 +9,33 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+.btn-xl{
+color:#fff;
+background-color:#EF4740;
+border-color:#EF4740;
+font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+text-transform:uppercase;
+font-weight:700;
+border-radius:3px;
+font-size:18px;
+padding:20px 40px
+}
+.btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{
+color:#fff;
+background-color:#fec503;
+border-color:#f6bf01
+}
+.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{
+background-image:none
+}
+.btn-xl.active{
+background-color:#EF4740
+;border-color:#EF4740
+}
+.btn-xl .badge{
+color:#EF4740;
+background-color:#fff
+}
 body {
   margin: 0;
 }
